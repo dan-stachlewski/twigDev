@@ -1,0 +1,13 @@
+{
+    "name": "vendor/twig-dev",
+    "description": "Description of project twigDev.",
+    "authors": [
+        {
+            "name": "meta",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {
+        "twig/twig": "v1.22.2"
+    }
+}
