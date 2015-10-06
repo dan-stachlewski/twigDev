@@ -17,8 +17,11 @@
  * - require './vendor/autoload.php';
  * - as it Autoloads all the libraries maintained by composer
  * STEP [12] Set up the Twig Object
- * STEP []
- * STEP []
+ * STEP [13] Define the variables set in the template.html.twig
+ * STEP [14] Use Render Method to display template by defining 
+ * 1st arg as template and 
+ * 2nd args as array of vars
+ *  STEP [15]
  *
  */
 
