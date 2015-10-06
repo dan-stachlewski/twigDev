@@ -24,12 +24,13 @@ class __TwigTemplate_3961d30b84d0877769c0d9c63630d76ea996fd983cfae8bb978f596e4a4
         <title>Its all about TWIG!</title>
     </head>
     <body>
+        <!-- Syntax for declaring variables using Twig -->
         <h1>";
-        // line 10
+        // line 11
         echo twig_escape_filter($this->env, (isset($context["heading"]) ? $context["heading"] : null), "html", null, true);
         echo "</h1>
         <p>Welcome ";
-        // line 11
+        // line 12
         echo twig_escape_filter($this->env, (isset($context["name"]) ? $context["name"] : null), "html", null, true);
         echo "!</p>
     </body>
@@ -48,7 +49,7 @@ class __TwigTemplate_3961d30b84d0877769c0d9c63630d76ea996fd983cfae8bb978f596e4a4
 
     public function getDebugInfo()
     {
-        return array (  33 => 11,  29 => 10,  19 => 2,);
+        return array (  34 => 12,  30 => 11,  19 => 2,);
     }
 }
 /* {# empty Twig template #}*/
@@ -60,6 +61,7 @@ class __TwigTemplate_3961d30b84d0877769c0d9c63630d76ea996fd983cfae8bb978f596e4a4
 /*         <title>Its all about TWIG!</title>*/
 /*     </head>*/
 /*     <body>*/
+/*         <!-- Syntax for declaring variables using Twig -->*/
 /*         <h1>{{ heading }}</h1>*/
 /*         <p>Welcome {{ name }}!</p>*/
 /*     </body>*/

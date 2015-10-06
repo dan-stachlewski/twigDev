@@ -1,5 +1,38 @@
-{# Twig Template from the JSON Wiki Example #}
-{# https://en.wikipedia.org/wiki/JSON #}
+{# empty Twig template #}
+
+{#
+The line below uses the html code and 
+ block content and places the below code 
+ within the 'id' i.e; content or footer
+#}
+{% extends "base.html.twig" %}
+{#
+Run the Block named Content
+#}
+{% block content %}
+{#created new template as below:#}
+<h2>BLOCK Content</h2>
+<p>My Name: <strong>{{ firstName|lower }}, {{ lastName|upper }}</p>
+<p>Address: <strong>{{ address.streetAddress }}, {{ address.city }}</strong></p>
+<p>Phone Numbers:</p>
+<ol>
+ {#
+Example of a foreach stmnt using Twig Syntax
+#}   
+{% for phone in phoneNumbers %}
+<li> {{ phone.type }}: {{ phone.number }} </li>
+{% else %}
+No Phones have been found!
+{% endfor %}
+</ol>
+{% endblock %}
+
+{#
+Run the Block named Footer
+#}
+{% block footer %}
+{#created new template as below:#}
+<h2>BLOCK Footer</h2>
 <p>My Name: <strong>{{ firstName }}, {{ lastName|upper }}</p>
 <p>Address: <strong>{{ address.streetAddress }}, {{ address.city }}</strong></p>
 <p>Phone Numbers:</p>
@@ -7,6 +40,7 @@
 {% for phone in phoneNumbers %}
 <li> {{ phone.type }}: {{ phone.number }} </li>
 {% else %}
-No Phones have been found!
+Add the dates for change of years
 {% endfor %}
 </ol>
+{% endblock %}

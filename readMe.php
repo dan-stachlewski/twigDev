@@ -23,7 +23,11 @@
  * 2nd args as array of vars
  * STEP [15] Create new template person.html.twig
  * STEP [16] Add the Twig syntax code from the JSON Wiki example
- * STEP [17} 
- *
+ * STEP [17] Create a new Template called base.html.twig
+ * -Demo's BLOCK CONTENT where <div> {% block content %} {% endblock %} </div>
+ * blocks are defined within tags
+ * SETP [18] Create a new Template called person.html.twig
+ * -Details all the data within BLOCK CONTENT acts as the template for the template
+ * STEP [19] The index.php file stays the same.
  */
 

@@ -1,0 +1,23 @@
+{# empty Twig template #}
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Its all about TWIG!</title>
+    </head>
+    <body>
+        <div id="content">
+            <!-- This is called BLOCK CONTENT -->
+            {% block content %} 
+                <!-- All the code defined in person.html.twig will be displayed here -->
+            {% endblock %}
+        </div>
+        <div id="footer">
+            <!-- This is called BLOCK CONTENT -->
+            {% block footer %}
+                <!-- All the code defined in person.html.twig will be displayed here -->
+            {% endblock %}
+        </div>
+    </body>
+</html>
