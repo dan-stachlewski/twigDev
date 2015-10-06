@@ -21,7 +21,9 @@
  * STEP [14] Use Render Method to display template by defining 
  * 1st arg as template and 
  * 2nd args as array of vars
- *  STEP [15]
+ * STEP [15] Create new template person.html.twig
+ * STEP [16] Add the Twig syntax code from the JSON Wiki example
+ * STEP [17} 
  *
  */
 

@@ -1,0 +1,12 @@
+{# Twig Template from the JSON Wiki Example #}
+{# https://en.wikipedia.org/wiki/JSON #}
+<p>My Name: <strong>{{ firstName }}, {{ lastName|upper }}</p>
+<p>Address: <strong>{{ address.streetAddress }}, {{ address.city }}</strong></p>
+<p>Phone Numbers:</p>
+<ol>
+{% for phone in phoneNumbers %}
+<li> {{ phone.type }}: {{ phone.number }} </li>
+{% else %}
+No Phones have been found!
+{% endfor %}
+</ol>
